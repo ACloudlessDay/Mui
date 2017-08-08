@@ -1,0 +1,41 @@
+{
+	"index.html": {
+		"resources": [
+			"img/goods1.png",
+			"img/goods11.png",
+			"img/goods19.png",
+			"images/slider/slider-3.webp",
+			"images/slider/slider-1.webp",
+			"img/goods14.png",
+			"img/goods25.png",
+			"img/goods6.png",
+			"img/goods4.png",
+			"img/goods13.png",
+			"img/goods3.png",
+			"img/goods23.png",
+			"css/index.css",
+			"img/goods22.png",
+			"img/goods7.png",
+			"img/goods21.png",
+			"js/mui.min.js",
+			"css/iconfont.css",
+			"img/goods8.png",
+			"fonts/iconfont.ttf",
+			"img/goods10.png",
+			"fonts/mui.ttf",
+			"img/goods18.png",
+			"images/slider/slider-2.webp",
+			"img/goods17.png",
+			"img/goods12.png",
+			"img/goods5.png",
+			"img/goods15.png",
+			"css/mui.min.css",
+			"img/goods24.png",
+			"img/goods2.png",
+			"images/slider/slider-4.webp",
+			"img/goods20.png",
+			"img/goods9.png",
+			"img/goods16.png"
+		]
+	}
+}

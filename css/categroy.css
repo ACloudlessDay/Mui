@@ -1,0 +1,367 @@
+.w890 {
+  width: 890px;
+}
+.w100 {
+  width: 100%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.xc {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.yc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.pa {
+  position: absolute;
+}
+.pr {
+  position: relative;
+}
+.br {
+  border-radius: 50%;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.bcf {
+  background-color: #fff;
+}
+.ti {
+  text-indent: -9999px;
+}
+.cfff {
+  color: #fff;
+}
+.red {
+  color: red;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mb35 {
+  margin-bottom: 35px;
+}
+.mb25 {
+  margin-bottom: 25px;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+.bt1ddd {
+  border-top: 1px solid #ddd;
+}
+.bln {
+  border-left: none;
+}
+.brn {
+  border-right: none;
+}
+.btn {
+  border-top: none;
+}
+.bbn {
+  border-bottom: none;
+}
+.df {
+  display: flex;
+}
+.jcc {
+  justify-content: center;
+}
+.jcsb {
+  justify-content: space-between;
+}
+.jcsa {
+  justify-content: space-around;
+}
+.aic {
+  align-items: center;
+}
+.flex-ccsb {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.cf {
+  color: #fff;
+}
+.ma {
+  margin: auto;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+input,
+button,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/1.2 "微软雅黑", "SimSun", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:visited {
+  color: #666;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
+}
+html {
+  font-size: 100px;
+}
+header {
+  display: flex;
+  font-size: 0.28rem;
+  justify-content: center;
+  justify-content: space-around;
+  height: 0.66rem !important;
+  align-items: center;
+}
+header .iconfont {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 0.35rem !important;
+}
+header .inputwarp {
+  height: 0.66rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 5.64rem;
+}
+header .inputwarp .input-i {
+  padding-left: 0.2rem !important;
+}
+header .inputwarp .input {
+  font-size: 0.28rem;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 0.66rem;
+  padding-left: 0.1rem;
+}
+header .news {
+  padding-right: 0.12rem;
+}
+.mui-bar-tab {
+  height: 1.16rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mui-bar-tab .mui-tab-item {
+  height: 1.16rem !important;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.mui-bar-tab .mui-tab-label {
+  margin-top: 0.05rem;
+  line-height: normal;
+}
+.mui-bar-tab .mui-tab-item.mui-active {
+  color: #727272;
+}
+.mui-content {
+  display: flex;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  bottom: 1.16rem;
+  top: 0.66rem !important;
+  padding: 0 !important;
+}
+.mui-content .mui-scroll-wrapper {
+  position: relative;
+}
+.mui-content img {
+  width: 100%;
+}
+.mui-content .goods-left {
+  width: 1.57rem;
+  color: #666;
+  line-height: 0.6rem;
+  flex: 0 0 auto;
+  border-right: 1px solid #ddd;
+  text-align: center;
+  font-size: 0.24rem;
+  padding-top: 0.4rem;
+  line-height: 0.8rem;
+}
+.mui-content .goods-left .on {
+  color: #f60;
+  font-size: 0.3rem;
+}
+.mui-content .goods-right {
+  flex: 1 1 auto;
+  padding-left: 0.34rem;
+  padding-right: 0.34rem;
+  overflow-y: auto;
+}
+.mui-content .goods-right .goods-menu {
+  margin-top: 0.44rem;
+}
+.mui-content .goods-right .goods-menu .iphone-img {
+  margin-bottom: 0.5rem;
+}
+.mui-content .goods-right .goods-menu .iphone-span {
+  position: relative;
+  text-align: center;
+  font-size: 0.28rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.4rem;
+}
+.mui-content .goods-right .goods-menu .iphone-span .info {
+  font-size: 0.28rem;
+  color: #222;
+}
+.mui-content .goods-right .goods-menu .iphone-span .info:after,
+.mui-content .goods-right .goods-menu .iphone-span .info:before {
+  position: absolute;
+  content: "";
+  height: 0.01rem;
+  background: #ddd;
+  width: 0.6rem;
+}
+.mui-content .goods-right .goods-menu .iphone-span .info:after {
+  top: 0.17rem;
+  right: 1.5rem;
+}
+.mui-content .goods-right .goods-menu .iphone-span .info:before {
+  top: 0.17rem;
+  left: 1.5rem;
+}
+.mui-content .goods-right .goods-menu .list {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.mui-content .goods-right .goods-menu .list .info {
+  font-size: 0.22rem;
+  color: #666;
+  padding-top: 0.4rem;
+}

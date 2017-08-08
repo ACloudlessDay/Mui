@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>主页</title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>		
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<script type="text/javascript">
+			var fs = document.documentElement.clientWidth / 750 * 100;
+			document.documentElement.style.fontSize = fs + 'px';
+		</script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<header class="mui-bar mui-bar-nav">
+			<a class=" mui-icon iconfont icon-richscan_icon "></a>
+			<p class="inputwarp">
+				<i class="mui-icon mui-icon-left-nav input-i"></i>
+				<input class="input" type="" placeholder="米家空调伴侣" />
+			</p>
+
+			<a href="" class="icon-xiaoxi mui-icon iconfont"></a>
+		</header>
+		<!--轮播图-->
+		<div id="slider" class="mui-slider">
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img class="silderimg" src="images/slider/slider-4.webp">
+					</a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img class="silderimg" src="images/slider/slider-1.webp">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img class="silderimg" src="images/slider/slider-2.webp">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img class="silderimg" src="images/slider/slider-3.webp">
+					</a>
+				</div>
+				<!-- 第四张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img class="silderimg" src="images/slider/slider-4.webp">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img class="silderimg" src="images/slider/slider-1.webp">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<!--主体-->
+		<div class="mui-content">
+			<!--导航-->
+			<div class="topnav">
+				<div class="item">
+					<span class="font">小</span>
+					<p class="info">真心想要</p>
+				</div>
+				<div class="item">
+					<span class="font">米</span>
+					<p class="info">手机充值</p>
+				</div>
+				<div class="item">
+					<span class="font">6</span>
+					<p class="info">米粉卡</p>
+				</div>
+				<div class="item">
+					<span class="font">1</span>
+					<p class="info">挑选手机</p>
+				</div>
+				<div class="item">
+					<span class="font">8</span>
+					<p class="info">新品发布</p>
+				</div>
+			</div>
+			<!--商城早报-->
+			<div class="news">
+				<p class="info">商城早报</p>
+				<div class="report">
+					<p class="paragraph">小米周报6.05-6.11一周新鲜事</p>
+					<p class="paragraph">米粉说：我是第一批体验MIUI 9的人</p>
+					<p class="paragraph">长腿美女出镜！小米5X人像模式实拍</p>
+				</div>
+			</div>
+			<!--商品-->
+			<div class="goods">
+				<div class="menu">
+					<span class="item1">
+						<a href=""><img src="img/goods1.png" alt="" /></a>
+					</span>
+					<span class="item2">
+						<a href=""><img src="img/goods2.png"/></a>
+						<a href=""><img src="img/goods3.png"/></a>						
+					</span>
+				</div>
+				<a href=""><img class="goods4" src="img/goods4.png" alt="" /></a>
+				<a href=""><img class="goods5" src="img/goods5.png" alt="" /></a>
+				<!--两个一行-->
+				<div class="menu2 mui-row">
+					<a href="" class="mui-col-sm-6 mui-col-xs-6 list">
+						<img class="goods6" src="img/goods6.png" alt="" />
+						<div class="item">
+							<h2 class="info1">红米Note&nbsp;4X&nbsp;全网通版</h2>
+							<p class="info2">多彩金属/超长续航</p>
+							<p class="info3"><span class="info4">¥</span>999<i class="info5">&nbsp;起</i></p>
+						</div>						
+					</a>
+					<a href="" class=" mui-col-sm-6 mui-col-xs-6 list">
+						<img class="goods6" src="img/goods7.png" alt="" />
+						<div class="item">
+							<h2 class="info1">小米电视4A&nbsp;43英寸</h2>
+							<p class="info2">全高清HDR,64位处理器</p>
+							<p class="info3"><span class="info4">¥</span>1899<del class="info5 info6">¥2099</del></p>
+						</div>
+					</a>					
+					<a href="" class="mui-col-sm-6 mui-col-xs-6 list">
+						<img class="goods6" src="img/goods8.png" alt="" />
+						<div class="item">
+							<h2 class="info1">米家智能摄像机</h2>
+							<p class="info2">守护家的每一面</p>
+							<p class="info3">¥199</p>
+						</div>
+					</a>
+					<a href="" class="mui-col-sm-6 mui-col-xs-6 list">
+						<img class="goods6" src="img/goods9.png" alt="" />
+						<div class="item">
+							<h2 class="info1">小米路由器Pro</h2>
+							<p class="info2">全新一代智能家庭中心</p>
+							<p class="info3">¥499</p>
+						</div>
+					</a>
+					<a href="" class="mui-col-sm-6 mui-col-xs-6 list">
+						<img class="goods6" src="img/goods10.png" alt="" />
+						<div class="item">
+							<h2 class="info1">小米体重秤</h2>
+							<p class="info2">高精度压力传感器</p>
+							<p class="info3">¥99</p>
+						</div>
+					</a>
+					<a href="" class="mui-col-sm-6 mui-col-xs-6 list">
+						<img class="goods6" src="img/goods11.png" alt="" />
+						<div class="item">
+							<h2 class="info1">小米电视3S&nbsp;55英寸</h2>
+							<p class="info2">超薄金属机身，LG&nbsp;4K屏</p>
+							<p class="info3"><span class="info4">¥</span>3599<del class="info5 info6">¥3999</del></p>
+						</div>
+					</a>
+					<a class="bigimg" href="">
+						<img src="img/goods12.png" alt="" />						
+					</a>
+					<a class="bigimg" href="">
+						<img src="img/goods13.png" alt="" />						
+					</a>
+					
+					<a href="" class="mui-col-sm-6 mui-col-xs-6 list">
+						<img class="goods6" src="img/goods14.png" alt="" />
+						<div class="item">
+							<h2 class="info1">红米Note&nbsp;4X&nbsp;全网通版</h2>
+							<p class="info2">多彩金属/超长续航</p>
+							<p class="info3"><span class="info4">¥</span>999<i class="info5">&nbsp;起</i></p>
+						</div>						
+					</a>
+					<a href="" class=" mui-col-sm-6 mui-col-xs-6 list">
+						<img class="goods6" src="img/goods15.png" alt="" />
+						<div class="item">
+							<h2 class="info1">小米电视4A&nbsp;43英寸</h2>
+							<p class="info2">全高清HDR,64位处理器</p>
+							<p class="info3"><span class="info4">¥</span>1899<del class="info5 info6">¥2099</del></p>
+						</div>
+					</a>
+					<a href="" class="mui-col-sm-6 mui-col-xs-6 list">
+						<img class="goods6" src="img/goods16.png" alt="" />
+						<div class="item">
+							<h2 class="info1">红米Note&nbsp;4X&nbsp;全网通版</h2>
+							<p class="info2">多彩金属/超长续航</p>
+							<p class="info3"><span class="info4">¥</span>999<i class="info5">&nbsp;起</i></p>
+						</div>						
+					</a>
+					<a href="" class=" mui-col-sm-6 mui-col-xs-6 list">
+						<img class="goods6" src="img/goods17.png" alt="" />
+						<div class="item">
+							<h2 class="info1">小米电视4A&nbsp;43英寸</h2>
+							<p class="info2">全高清HDR,64位处理器</p>
+							<p class="info3"><span class="info4">¥</span>1899<del class="info5 info6">¥2099</del></p>
+						</div>
+					</a>
+					<a href="" class="mui-col-sm-6 mui-col-xs-6 list borderb">
+						<img class="goods6" src="img/goods18.png" alt="" />
+						<div class="item">
+							<h2 class="info1">红米Note&nbsp;4X&nbsp;全网通版</h2>
+							<p class="info2">多彩金属/超长续航</p>
+							<p class="info3"><span class="info4">¥</span>999<i class="info5">&nbsp;起</i></p>
+						</div>						
+					</a>
+					<a href="" class=" mui-col-sm-6 mui-col-xs-6 list borderb">
+						<img class="goods6" src="img/goods19.png" alt="" />
+						<div class="item">
+							<h2 class="info1">小米电视4A&nbsp;43英寸</h2>
+							<p class="info2">全高清HDR,64位处理器</p>
+							<p class="info3"><span class="info4">¥</span>1899<del class="info5 info6">¥2099</del></p>
+						</div>
+					</a>
+					<div class="more">
+						<a class="info">更多新品<i class="mui-icon mui-icon mui-icon-arrowright input-i"></i></a>
+					</div>
+					<a class="bigimg" href="">
+						<img src="img/goods20.png" alt="" />						
+					</a>
+					<a class="bigimg" href="">
+						<img src="img/goods21.png" alt="" />						
+					</a>
+					
+					<div class="imgleft">
+						<a href="" class="link">
+							<img src="img/goods22.png" alt="" class="images" />
+							<span class="info">
+								<p class="info-p info-p1">小蚁微单相机M1</p>
+								<p class="info-p">高画质易操作&nbsp;小白也能轻松专业摄影</p>
+								<!--<p class="info3">专业摄影</p>-->
+								<p class="info3"><span class="info4">¥</span>2999</p>								
+							</span>
+						</a>
+					</div>
+					<div class="imgleft">
+						<a href="" class="link">
+							<span class="info">
+								<p class="info-p info-p1">小蚁微单相机M1</p>
+								<p class="info-p">高画质易操作&nbsp;小白也能轻松专业摄影</p>
+								<!--<p class="info3">专业摄影</p>-->
+								<p class="info3"><span class="info4">¥</span>2999</p>								
+							</span>
+							<img src="img/goods23.png" alt="" class="images" />							
+						</a>
+					</div>
+					<div class="imgleft">
+						<a href="" class="link">
+							<img src="img/goods24.png" alt="" class="images" />														
+							<span class="info">
+								<p class="info-p info-p1">小蚁微单相机M1</p>
+								<p class="info-p">高画质易操作&nbsp;小白也能轻松专业摄影</p>
+								<!--<p class="info3">专业摄影</p>-->
+								<p class="info3"><span class="info4">¥</span>2999</p>								
+							</span> 
+						</a>
+					</div>
+					<div class="more more-t">
+						<a class="info">更多米家智能产品<i class="mui-icon mui-icon mui-icon-arrowright input-i"></i></a>
+					</div>
+					<a class="bigimg lastbigimg" href="">
+						<img src="img/goods25.png" alt="" />						
+					</a>
+				</div>
+			</div>
+			
+			<!--底部-->
+			<nav class="mui-bar mui-bar-tab">
+			    <a class="mui-tab-item mui-active" href="index.html">
+			        <span class="mui-icon icon-shouye iconfont"></span>
+			        <span class="mui-tab-label">首页</span>
+			    </a>
+			    <a class="mui-tab-item" href="categroy.html">
+			        <span class="mui-icon iconfont icon-iconfind"></span>
+			        <span class="mui-tab-label">分类</span>
+			    </a>
+			     <a class="mui-tab-item" href="find.html">
+			        <span class="mui-icon iconfont icon-diqiu"></span>
+			        <span class="mui-tab-label">发现</span>
+			    </a>
+			    <a class="mui-tab-item" href="goods.html">
+			        <span class="mui-icon iconfont icon-gouwuche-copy"></span>
+			        <span class="mui-tab-label">购物车</span>
+			    </a>
+			    <a class="mui-tab-item"href="setting.html">
+			        <span class="mui-icon iconfont icon-wode"></span>
+			        <span class="mui-tab-label">我的</span>
+			    </a>
+			</nav>
+		</div>
+
+		<script type="text/javascript">
+//			轮播图
+			mui.ready(function(){
+				//获得slider插件对象
+				var gallery = mui('.mui-slider');
+				gallery.slider({
+				  interval:3000//自动轮播周期，若为0则不自动播放，默认为0；
+				});
+			})
+			
+//			解除底部导航的默认阻止点击
+			mui.ready(function(){
+				mui(".mui-bar-tab").on("tap",".mui-tab-item",function(){
+					var links = this.getAttribute("href");
+//					console.info( this,hr);
+					window.location.href = links;
+				})
+			})
+			
+					
+			mui.ready(function() {
+				var paragraph = document.querySelectorAll('.report .paragraph');
+				//			console.log(paragraph);
+				function show(index) {
+					for(var i = 0; i < paragraph.length; i++) {
+						if(i == index) {
+							paragraph[i].style.opacity = 1;
+//							paragraph[i].style.zIndex = 1;
+						} else {
+							paragraph[i].style.opacity = 0;
+//							paragraph[i].style.zIndex = 0;
+						}
+					}
+				}
+				show(0);
+
+				var t = 0;
+				setInterval(function() {
+					if(t > 2) {
+						t = 0
+					}
+					show(t);
+					t++;
+				}, 2000);
+			});
+			
+			
+		</script>
+	</body>
+
+</html>

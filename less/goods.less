@@ -1,0 +1,119 @@
+@impor "mi.less";
+
+.mui-content{
+    overflow: hidden; 
+    .topnav{
+        .df;.h(100);.aic;.jcsb;background: #F37D0F;.pl(40);.pr(25);position: fixed;top: 0;z-index: 998;width: 100%;
+        .shop{
+            .cf;
+            .fs(28);
+            .topnav-i{
+                .fs(35);.pr(40);
+            }
+        }
+        .info{.fs(28);}
+    }
+    .goods{
+        .mt(100);.mb(100);
+        .menu{
+            .df;.h(192);.bcf;.pl(25);.bt1;
+//          缺货
+            .stockout{.w(62);.h(33);background: #AFAFAF;color: #fff;.pr(8);.fs(20);.lh(33);.tc;box-sizing: content-box;}
+            .images{
+                .df;.jcc;.aic;
+                .img1{.wh(49);.pr(21);box-sizing: content-box;}
+                .img2{.w(130);.h(120);}
+            }
+            .goods-right{
+                .df;.jcsb;width: 100%;.aic;.pr(38);.pl(31);
+                .item{line-height: 1.5;}
+                .info{.fs(28);}
+                .info-p1{color: #424242;}
+                .info-p2{color: #A9A9A9;}
+                .number{color:#FF5D00;}
+                .buy{
+                    .df;.tc;.aic;.lh(54);.fs(28);.bt1;.bb1;
+                    .buy-i{.h(54);.w(56);color: #666666;.bl1;.br1;}
+                    .quantity{.h(54);.w(56);.fs(28);color: #3C3C3C;}
+                }
+            } 
+        }
+        .small{
+            .df;.fs(20);.h(61);.bcf;.aic;.jcsb;color: #FF5D00;.bcf;
+            .small-menu{.h(61);width: 100%;.aic;.jcsb;.df;.ml(25);.mr(25);border-top: 1px dashed #ccc;}
+            .item{.df;.aic;}
+            .small-img{
+                .h(61);
+            }
+            .small-info{.fs(20);color: #666666;}
+            .push{.mr(15);.w(134);.h(46);background: #8AC349;color: #fff;.lh(45);.tc;box-sizing: content-box;}
+        }
+        
+    }
+    .purchased{
+        .df;.h(77);.aic;.fs(28);.pl(25);
+        .info{.fs(28);color: #505050;}
+    }
+    .purchased-shop{
+        .h(265);.bcf;
+        .shop-item{
+            .w(150);.jcsb;.h(265);.pt(24);.pl(11);.df;.jcc;.aic;flex-direction: column;
+            .info{.fs(26);line-height: 1.5;}
+            .info1{color: #333;}
+            .info2{color: #B6B6B6;}
+        }
+    }
+    .hint{
+        .df;.h(77);.aic;.fs(28);        
+        .info{.fs(25);color: #7F7F7F;.pl(69);}
+    }
+    .recommend{
+        .h(60);.pr;
+        .info{
+            .fs(28);.tc;
+            &:after,&:before{
+                .pa;content: "";.h(1);background:#ddd;.w(200);
+            }
+            &:after{
+                .t(22);.r(0);
+            }
+            &:before{
+                .t(22);.l(0);
+            }
+        }
+    }
+    .menu2{
+        .df;
+        flex-wrap: wrap;.bcf;
+        & .list:nth-child(2n){.pl(1);.pb(29);}
+        & .list:nth-child(2n-1){.pr(1);.pb(29);}
+        .borderb{border-bottom: 2px solid #ddd;}                
+        .bigimg{.pt(17);background: #F5F5F5;width: 100%;}
+        .item{
+            .pl(25);
+            .info1{.fs(28);color: #333;.pt(26);}
+            .info2{.fs(24);color: #a8a8a8;.pt(13);}           
+            .info3{
+                .fs(30);.pt(22);color: #f60;
+                .info4{.fs(20);.pr;.t(-7);}
+                .info5{.fs(20);}
+                .info6{color: #a8a8a8;.pl(10);}
+            }
+            .item2{
+                .df;.jcsb;align-items: flex-end;
+                .iconfont{.fs(40);.pr(25);}
+            }
+        }
+        
+    }
+}
+
+.footer{
+    .h(100);.df;.aic;.fs(40);.jcsb;border:none;position: fixed;bottom: 0;z-index: 998;
+    .item{
+        .df;width: 50%;.jcc;height: 100%;.aic;
+    }
+    .item1{background: #fff;color: #333;}
+    .item2{background: #F37D0F;color: #fff;}
+}
+
